@@ -1,0 +1,588 @@
+*{
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    /* overflow-x: hidden; */
+}
+a {
+    color: #06c;
+  }
+  img {
+    max-width: 100%;
+  }
+  .white {
+    color: #fff;
+  }
+  .black {
+    color: #1d1d1f;
+  }
+  .grey {
+    color: #86868b;
+  }
+  .top-50 {
+    margin-top: 50px;
+  }
+  .top-100 {
+    margin-top: 100px;
+  }
+
+
+  /*todo Header Style begin*/
+  .nav-wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 0.65em;
+    font-weight: 200;
+  }
+  .nav-wrapper ul li a {
+    color: #fff !important;
+  }
+  .navbar-toggler {
+    color: #fff;
+  }
+  .nav-item {
+    text-align: left !important;
+    padding: 4px 0;
+    border-bottom: 1px solid #4b4b4b;
+  }
+  .nav-wrapper img{
+    width: 15px;
+  }
+  
+  nav a{
+    opacity: 0.8;
+  }
+  nav a:hover{
+    opacity: 1;
+  }
+
+
+  @media (min-width: 768px) {
+    /*Nav bar*/
+    .nav-item {
+      text-align: center !important;
+      padding: 0;
+      border-bottom: 0px;
+    }
+}
+
+/*todo Header style end */
+
+
+
+/** background i video start */
+/* 
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;// 16:9 aspect ratio
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .video-container .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    top: 450px;
+    text-align: center;
+   
+  } */
+
+  
+
+  /* .video-container .content .descriptionAnim h4{
+      font-size: 22px;
+      font-weight: 530;
+      padding-bottom: 15px;
+  } */
+
+
+/** background i video end */
+
+  /*? gif  start  */
+
+/*  ------------------   */
+  .learnAndBuy a{
+    border: 1px solid #F5F5F7;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-block: 10px;
+    padding-inline: 20px;
+    font-size: 15px;
+ }
+ 
+
+ .learnAndBuy a:nth-child(1){
+    background-color:#F5F5F7;
+    color:black;
+    margin-right: 10px;
+
+ }
+
+ .learnAndBuy a:nth-child(2){
+    background-color:"";
+    color: #F5F5F7;
+ }
+
+ .learnAndBuy a:nth-child(2):hover{
+    background-color:#F5F5F7;
+    color: black;
+ }
+/*  ------------------   */
+
+
+  .gif-container {
+    background-image: url('../Resource/Images/Image/watchmobile.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px; /* Adjust as needed */
+  }
+  .descriptionAnim {
+    width: 75%;
+    margin: 0 auto;
+   }
+   
+  .gif-container .content {
+     position: relative;
+     top: 500px;
+     text-align: center;
+     /* padding-inline: 100px; */
+
+  }
+ 
+  @media(min-width:768px){
+    .gif-container {
+        background-image: url('../Resource/Images/VideoandGif/Apple.gif');
+       
+      }
+
+      .gif-container .content{
+        
+        z-index: 1;
+        color: #fff;
+        top: 450px;
+      }
+  }
+  
+  .gif-container .content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+  }
+
+  /*? gif  end  */
+
+
+  /* ***********  Common CSS => BACKGROUND IMAGES ************ */
+
+  .iphone15proContainer, .iphone15Container,.visionConference .left-side,.visionConference .right-side,.macIpad .left-side,.macIpad .right-side,.cardTrade .left-side,.cardTrade .right-side{
+    height: 580px;
+    background-repeat: no-repeat;
+    background-position:center;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  /*todo  iphone 15 pro  start */
+
+  .iphone15proContainer{
+    background-image: url(../Resource//Images/Image/Iphone15Promobile.jpg);
+    color: white;
+  
+
+    /* padding-top: 20px; */
+  }
+ 
+
+  @media(min-width:768px){
+    .iphone15proContainer{
+        background-image: url(../Resource//Images/Image/Iphone15Pro.jpg);
+        /* padding-top: 20px; */
+      }
+  }
+  .iphone15Container div.description ,.iphone15proContainer div.description{
+    font-size: 25px;
+}
+
+  .learnAndBuyLinks{
+    padding-top: 30px;
+  }
+  
+ .learnAndBuyLinks a{
+    border: 1px solid #0077ED;
+    border-radius: 30px;
+    color:white;
+    text-decoration: none;
+    padding-block: 10px;
+    padding-inline: 20px;
+    font-size: 15px;
+ }
+ 
+
+ .learnAndBuyLinks a:nth-child(1){
+    background-color:#0077ED;
+    margin-right: 20px;
+ }
+
+ .learnAndBuyLinks a:nth-child(2){
+    background-color:"";
+    color: #0077ED;;
+ }
+
+ .learnAndBuyLinks a:nth-child(2):hover{
+    background-color:#0077ED;
+    color: white;
+ }
+
+  /*todo  iphone 15 pro end */
+
+  /* ? iphone 15 start */
+
+  .iphone15Container{
+    background-image: url(../Resource//Images/Image/Iphone15.jpg);
+  }
+
+  /* ? iphone 15 end */
+
+
+  /* todo Vision and conference section  starts*/
+
+  .visionConference .left-side{
+        background-image: url(../Resource//Images/Image/DeveloperConference.jpg);  
+    }
+
+    .visionConference .right-side{
+        background-image: url(../Resource//Images/Image/Vision.jpg);    
+    }
+
+    .visionConference .left-side .descriptions {
+        padding-top: 370px;
+        padding-bottom: 3px;
+        padding-inline: 100px;
+        color: white;
+    }
+
+    .visionConference .right-side img {
+        padding-top: 350px;
+    }
+
+  /* todo Vision and conference section  end*/
+
+
+   /*? MacBook and Ipad section  starts*/
+
+  
+
+   .macIpad .left-side{
+    background-image: url(../Resource//Images/Image/MacMobileee.jpg);  
+   }
+
+.macIpad .right-side{
+    background-image: url(../Resource//Images/Image/Ipad.jpg);
+}
+.macIpad .title{
+    font-size: 35px;
+    font-weight: 550;
+}
+.macIpad .descriptions{
+    font-size: 20px;
+}
+
+/* ?MacBook and Ipad section  end*/
+
+  /** card and tradeIn section  starts*/
+
+  .cardTrade .left-side{
+    background-image: url(../Resource//Images/Image/Card.jpg);
+   }
+
+.cardTrade .right-side{
+    background-image: url(../Resource//Images/Image/TradeIn.jpg);
+}
+
+.cardTrade .left-side img{
+    width: 20%;
+}
+.cardTrade  .descriptions {
+    padding-inline: 150px;
+}
+.estimate {
+    margin-top: 20px;
+}
+.estimate a{
+   
+        border: 1px solid #0077ED;
+        background-color: #0077ED;
+        border-radius: 30px;
+        color:white;
+        text-decoration: none;
+        padding-block: 10px;
+        padding-inline: 10px;
+        font-size: 15px;
+        opacity: 0.9;
+ 
+}
+.estimate a:hover{
+    opacity: 1;
+}
+
+/* *card and tradeIn section  end*/
+
+.descriptions{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+/* ! Footer  */
+
+/* Footer Styling */
+
+/* Footer Styling */
+.footer-wrapper {
+    background-color: #f5f5f7;
+    color: #86868b;
+    font-size: .7em;
+  }
+  .footer-wrapper ul {
+      list-style: none;
+      padding-bottom: 10px;
+      padding-inline-start: 0px;
+  }
+  .footer-wrapper ul a {
+      color: #515154;
+  }
+  .my-apple-wrapper {
+      padding-bottom: 15px;
+    margin-top: 10px;
+  }
+  .copyright {
+      margin-top: 15px;
+  }
+  .footer-country {
+      margin-top: 8px;
+  }
+  .flag-wrapper {
+      display: inline-block;
+      vertical-align: middle;
+      padding-right: 5px;
+  }
+  .footer-country-name{
+      display: inline-block;
+      vertical-align: middle;
+  }
+  .footer-links-terms ul {
+      display: flex;
+  }
+  .footer-links-terms ul li {
+      padding: 0 10px;
+      border-right: 1px solid #d2d2d7;
+  }
+  .footer-links-terms ul li:first-child {
+      padding-left: 0;
+  }
+  .footer-links-terms ul li:last-child {
+      border-right: 0;
+  }
+  
+  .footer-links-wrapper h3 {
+      font-size: 12px;
+      font-weight: 600;
+      color: #1d1d1f;
+  }
+  .footer-wrapper ul li{
+      padding: 4px 0;
+  }
+  .upper-text-container {
+      border-bottom: 1px solid #d2d2d7;
+      padding: 17px 0 10px;
+      margin-bottom: 20px;
+  }
+  .upper-text-container a {
+      color: #515154;
+  }
+
+  /*Media Query*/
+/* Footer */
+@media (max-width: 768px){
+	.footer-links-wrapper ul {
+		display: none;
+	}
+	.footer-links-wrapper h3 {
+		padding: 10px 0;
+		border-bottom: 1px solid #ccc;
+	}
+	.footer-links-wrapper h3:after {
+		font-family: "FontAwesome";
+		content: "\f067";
+		padding-left: 10px;
+		position: absolute;
+		right: 25px;
+	}
+}
+@media (min-width: 768px) {
+
+	/*Footer styling*/
+	.my-apple-wrapper {
+		border-bottom: 1px solid #d2d2d7
+	}
+	
+    .footer-links-wrapper ul li a{
+        text-decoration: none;
+    }
+    .footer-links-wrapper ul li a:hover{
+        text-decoration: underline;
+    }
+    .cont{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-links-wrapper{
+        margin-top: 30px;
+    }
+}
+@media (min-width: 992px) {
+	/*Footer styling*/
+	.copyright {
+		margin-top: 10px;
+	}
+	.footer-country {
+		margin-top: 10px;
+	}
+	.footer-links-terms {
+		margin-top: 10px;
+	}	
+}
+
+/* slider css */
+.slider-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:yellowgreen;
+}
+.slider{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    overflow:hidden;
+
+ }
+
+ .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+ }
+
+ .slides input {
+    display: none;
+ }
+
+ .slide{
+    width: 20%;transition:2s ;
+ }
+ .slide img {
+    width: 100%;
+    /* height: 500px; */
+ }
+
+ .navigation-manual{
+           position: absolute;
+           width: 800px;
+           margin-top: 0px;
+           display: flex;
+           justify-content: center;
+ }
+
+ .manual-btn{
+    border :2px solid #40D3DC;
+    padding: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+ }
+ .manual-btn:not(:last-child){
+    margin-right: 40px;
+ }
+ .manual-btn:hover{
+    background-color: #40D3DC;;
+ }
+ 
+ #radio1:checked ~ .first{
+    margin-left: 0;
+ }
+ #radio2:checked ~ .first{
+    margin-left: -10%;
+ }
+ #radio3:checked ~ .first{
+    margin-left: -30%;
+ }
+ #radio4:checked ~ .first{
+    margin-left: -50%;
+ }
+ #radio5:checked ~ .first{
+    margin-left: -65%;
+ }
+ #radio6:checked ~ .first{
+    margin-left: -80%;
+ }
+ #radio7:checked ~ .first{
+    margin-left: -95%;
+ }
+ /* automatic navigation */
+
+
+ .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+ }
+ .navigation-auto div{
+ border:2px solid #40D3DC;
+ padding: 5px;
+ border-radius: 10px;
+ transition: 1s;
+
+ }
+
+ .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+ }
+
+ #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+ }
+ #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+ }
+ #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+ }
+ #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+ }
+ #radio5:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+ }
+ #radio6:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+ }
+ #radio7:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+ }
