@@ -18,7 +18,6 @@ const Datas = [
     {
         wrapper:'cardTrade',
         imgOne:Images.card,
-        secondLink:'estimate',
         descriptionOne:'Get up to 3 % Daily Cash Back with every Purchase.',
         imgTwo:Images.trade,
         descriptionTwo:'Get $180- $630 in credit when you trade in iPhone 11 or higher .',

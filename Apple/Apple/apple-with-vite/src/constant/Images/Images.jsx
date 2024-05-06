@@ -22,8 +22,17 @@ import fiction from '../../assets/Resource/Rotated Images/Carousel/Sci-Fi.jpg'
 import thriller from '../../assets/Resource/Rotated Images/Carousel/Thriller.jpg'
 
 
+
+import nba from '../../assets/Resource/Rotated Images/rotated pic/NBA 2K24 Arcade Edition.jpg'
+import vibes from '../../assets/Resource/Rotated Images/rotated pic/Vibes.jpg'
+import island from '../../assets/Resource/Rotated Images/rotated pic/Hello Kitty Island Adventures.jpg'
+import hits from "../../assets/Resource/Rotated Images/rotated pic/Today's Hits.jpg"
+import yoga from '../../assets/Resource/Rotated Images/rotated pic/Yoga with Molly.jpg'
+import glutes from '../../assets/Resource/Rotated Images/rotated pic/Get Your Glutes in Great Shape.jpg'
+
+
 const Images = {
-   logo,search,cart,watchLogo,vision,trade,card,comedy,documentary,drama,livegame,mls,fiction,thriller
+   logo,search,cart,watchLogo,vision,trade,card,comedy,documentary,drama,livegame,mls,fiction,thriller,nba,vibes,island,hits,yoga,glutes
 }
 
 

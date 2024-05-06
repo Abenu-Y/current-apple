@@ -5,6 +5,8 @@ import List from './Data/DataOne'
 import Datas from './Data/DataTw0'
 import CompTwo from './Comp/CompTwo'
 import Slider from './Slide/Slider'
+import AutoPlay from './Carousel/AutoPlay'
+import Carousel from './Carousel/Carousel'
 
 
 function Main() {
@@ -32,7 +34,9 @@ function Main() {
                  />)
       }
 
-      <Slider />
+      {/* <Slider /> */}
+      <Carousel />
+      <AutoPlay />
 
     </>
   )

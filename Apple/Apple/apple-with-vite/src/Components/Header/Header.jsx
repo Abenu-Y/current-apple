@@ -7,7 +7,7 @@ function Header() {
 
 
         const LinksInfo = [
-            {LinkUrl:'/logo',imgPath:Images.logo},
+            {LinkUrl:'/',imgPath:Images.logo},
             {LinkUrl:'/store',LinkName:'Store'},
             {LinkUrl:'/mac',LinkName:'Mac'},
             {LinkUrl:'/ipad',LinkName:'iPad'},

@@ -1,7 +1,18 @@
-import React from 'react'
+import React ,{useEffect,useState}from 'react'
 import FooterLink from './FooterLink'
+import $ from 'jquery';
 
 function Footer() {
+ 
+  const[jq ,setJq]=useState(0)
+    useEffect(
+        ()=>{
+            $('footer-country-name').mouseover(
+                $(this).css('color','red')
+            )
+        },[]
+    )
+
   return (
     <footer className="footer-wrapper">
     <div className="container"> 
